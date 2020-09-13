@@ -1,0 +1,49 @@
+h1{
+    color: #fb5607;
+    text-align:center;
+    margin-bottom:20px;
+    text-shadow: 1px 1px #888888;
+    
+}
+
+
+body{
+    background-image:url(../utils/images/PBrzZ9.jpg);
+    background-color: #404040;
+    background-blend-mode: overlay;
+}
+
+.card-container{
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+    align-items: cnter;
+   background-color: white;
+    width:40%;
+    height:400px;
+    padding:3rem;
+    margin-top:3rem;
+    border-radius:5px;
+    box-shadow:1px 1px 5px 1px black;
+    
+}
+
+.card-container > form >input{
+    width:98%;
+    height:30px;
+    margin-top:5rem;
+}
+
+.card-container > form > button{
+    width:100%;
+    margin-left:-1px;
+    background:linear-gradient(to left, #ff713b, #ffa51d);
+    transition: transform 400ms ease-in-out;
+    border-image: linear-gradient(to left, #ff713b, #ffa51d) 1;
+    font-weight:500;
+    color:#404040
+}
+
+.card-container > form > button:hover{
+    transform:scale(1.1);
+}
